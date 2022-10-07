@@ -1,0 +1,19 @@
+discuss with michael about how to use the nau system
+
+
+For team reviews: every other meeting, informally go around a circle and answer questions, people chime in on what they've done or noticed others doing as applicable
+	questions:
+	what did you accomplish this week?
+	what do you plan on doing this week?
+	what are any blockers?
+
+
+overview - Sam
+language use - Sam
+frameworks - Sam
+APIs - Alexander
+scope - Shlok
+potential problems - Noah
+list MVP tasks - Shlok
+Auth - Alexander 
+UI - Noah

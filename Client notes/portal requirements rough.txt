@@ -1,0 +1,40 @@
+STUDENT
+- if not registered:
+	- register with info: name, ID, area of study
+		+ system populates account using filemaker pro data, creates relevant list
+		+ system notifies that student has registered in STIC portal
+- log in (via cas)
+	- if registered:
+		- view needed information: unsubmitted, submitted/unverified, submitted/verified
+		- view docs
+		- view links to required tests (if not already completed)?
+		- submit docs
+			+ system stores docs
+		- request teacher recommendations (via survey)?
+			+ [if via survey] system sends survey email to requested teacher
+				+ completed survey fills data
+		- remove docs?
+		- send messages [stretch]
+
+
+TEACHER/OVERSEER
+- register?
+- log in (via cas)
+	- view list of students (pos. with color coded status blocks for submissions)
+	- select student to view details (search or just list?)
+		- confirm student for STIC?
+		- view/verify documents and information
+		- export individual student data
+	- alter settings [need special access, or can anyone with this access see this?]
+		- add/remove/alter required categories, etc
+	- export all data
+	- send messages [stretch]
+
+
+EXTERNAL (people requested to sign/submit info/etc)
+- if using a survey, rest of this is not necessary - receive link via email, fill, data is sent
+- else:
+	- student select: use email link? fill in data and search?
+		- view submittable information
+		- submit docs/check boxes/etc
+			+ system stores/registers
